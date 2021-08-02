@@ -1,0 +1,72 @@
+.image-item__btn-wrapper {
+	display: flex;
+	padding: 10px 10px 10px 0px;
+}
+.image-item__btn-wrapper > button {
+	background-color: rgba(26, 119, 255, 0.8);
+	color: white;
+	padding: 10px;
+	width: 100px;
+	border: none;
+}
+.image-item__btn-wrapper > button:first-child {
+	margin-right: 15px;
+}
+
+.upload__image-wrapper {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.upload__image-cross {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -20px;
+	font-size: 25px;
+	color: black;
+}
+.upload__image-edit{
+    display: flex;
+	justify-content: flex-end;
+	font-size: 20px;
+	color: var(--bg);
+}
+.upload__image:hover{
+	opacity: 0.3;
+}
+.upload__imagediv {
+	/* display: none; */
+	height: 150px;
+	position: relative;
+	margin-top: 25px;
+	cursor: pointer;
+
+	width: 150px;
+	border: rgba(128, 128, 128, 0.2) dashed;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.uploader{
+	opacity: 0;
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+}
+.uploader:hover{
+	opacity: 1;
+}
+.upload__imageIcon {
+	/* display: none; */
+	color: rgba(128, 128, 128, 0.2);
+	font-size: 20px !important;
+}
+.upload__imageIcon > .MuiSvgIcon-root {
+	font-size: 60px;
+}
+.upload__image-remover {
+	margin-left: 10px;
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+}

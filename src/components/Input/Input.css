@@ -1,0 +1,13 @@
+.input__ {
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    outline: none;
+}
+
+.input__containerTop {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--bg);
+    padding: 10px;
+}

@@ -1,0 +1,37 @@
+.card_container {
+    margin: 10px;
+    height: 20vh;
+    /* max-width: 250px; */
+    max-height: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    border-bottom: 2px solid var(--bg);
+}
+
+.shadow1 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* .card_container::after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    width: 2px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(90deg);
+} */
+
+.card_container>p:first-child {
+    font-size: 22px;
+    margin: 0px;
+    color: var(--bg)
+}
+
+.card_container > p:nth-child(2) {
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 5;
+    color: rgba(0, 0, 0, 0.5)
+}

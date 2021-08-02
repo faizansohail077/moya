@@ -1,0 +1,12 @@
+.nav-bg{
+    background-color: var(--bg);
+}
+.nav-link{
+    color: white !important;
+  }
+
+  .links > a {
+    color: white !important;
+    text-decoration: none !important;
+
+  }

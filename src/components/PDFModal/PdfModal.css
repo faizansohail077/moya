@@ -1,0 +1,27 @@
+.span {
+    font-weight: bold;
+    color: gray;
+}
+
+.table_heading2 {
+    color: var(--bg);
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row_containne4 {
+    display: flex;
+    height: 30px;
+    max-height: 50px;
+    justify-content: flex-end;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px !important;
+    width: '100%';
+}
+
+.row_containne4::-webkit-scrollbar {
+    display: none;
+}

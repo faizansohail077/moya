@@ -1,0 +1,79 @@
+.gfg {
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+
+.table_header {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px !important;
+}
+
+.table_th {
+    padding: 10px;
+    border-bottom: 2px solid var(--bg) !important;
+}
+
+.row_containner1 {
+    display: flex;
+    padding: 10px !important;
+    align-items: center;
+    max-width: 100px;
+    max-height: 30px;
+}
+
+.row_containner2 {
+    display: flex;
+    align-items: center;
+    padding: 10px !important;
+    flex-wrap: wrap;
+    max-width: 100px;
+    max-height: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.row_containner2::-webkit-scrollbar {
+    display: none;
+}
+
+.row_containner3 {
+    display: flex;
+    max-width: 100px;
+    max-height: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px !important;
+}
+
+.row_containner3::-webkit-scrollbar {
+    display: none;
+}
+
+.row_containner4 {
+    display: flex;
+    max-width: 100px;
+    width: 100px;
+    height: 30px;
+    max-height: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 10px !important;
+}
+
+.row_containner4::-webkit-scrollbar {
+    display: none;
+}
+
+.row_containner5 {
+    display: flex;
+    padding: 10px !important;
+    justify-content: flex-end;
+}
+
+.body_tr {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.td__border {
+    border-bottom: 1px solid var(--bg) !important;
+}

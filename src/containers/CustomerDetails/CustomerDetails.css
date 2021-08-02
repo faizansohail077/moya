@@ -1,0 +1,82 @@
+.customerDetails__top {
+    padding: 20px;
+    /* margin: 5px !important; */
+    margin-bottom: 5px !important;
+    border-radius: 10px;
+    border-bottom: 1PX solid var(--bg);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.customerDetails__topLeftBottom {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.customerDetails__topLeftHeading {
+    font-size: 30px;
+    color: var(--bg);
+}
+
+.customerDetails__topRightHeading {
+    font-size: 30px;
+    color: var(--bg);
+}
+
+.span_1 {
+    color: var(--bg);
+    font-size: 20px;
+}
+
+.span_2 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.customerDetails__topRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.customerDetails__topRightBottom {
+    margin-top: 30px;
+}
+
+.span_Right2 {
+    margin-top: 10px;
+}
+
+.startDate {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1PX solid var(--bg);
+}
+
+.startDate>input {
+    border: none;
+    outline: none;
+    width: 80%;
+}
+
+.EndDate {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1PX solid var(--bg);
+}
+
+.EndDate>input {
+    border: none;
+    outline: none;
+    width: 80%;
+}
+
+@media only screen and (max-width: 575px) {
+    .EndDate {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
